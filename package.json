@@ -1,0 +1,22 @@
+{
+  "name": "overwatch-api-bot",
+  "version": "1.0.0",
+  "description": "Overwatch Stats Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot"
+  },
+  "author": "HaRDCoRSHiK",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.1",
+    "bufferutil": "^4.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.3.2",
+    "overwatch-api": "^0.8.2",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "svg-builder": "^1.0.0"
+  }
+}
